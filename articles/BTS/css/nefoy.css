@@ -62,6 +62,13 @@
 .articleImage7 {
 flex-basis: 30%;
 }
+.articleImage8 {
+	flex-basis: 30%;
+}
+.articleImage9 {
+	flex-basis: 30%;
+}
+
 .articleCredits {
   max-width: 50%;
   margin: auto;
@@ -109,6 +116,12 @@ flex-basis: 30%;
 		flex-basis: auto;
 	}
 	.articleImage7 {
+		flex-basis: auto;
+	}
+	.articleImage8 {
+		flex-basis: auto;
+	}
+	.articleImage9 {
 		flex-basis: auto;
 	}
 }

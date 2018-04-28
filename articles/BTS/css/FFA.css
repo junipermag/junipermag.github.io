@@ -55,6 +55,7 @@
 }
 .articleImage3 {
   flex-basis: 63%;
+	padding: 20%;
 }
 .articleImage4 {
   flex-basis: 30%;
