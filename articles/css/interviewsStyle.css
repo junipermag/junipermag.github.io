@@ -1,0 +1,119 @@
+.social {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Articles Start */
+.logo {
+	text-align: center;
+	font-size: 100px;
+	font-family: WoodCutter, sans-serif;
+	font-weight: 100;
+	margin: 10px 0;
+	margin-bottom: 100px;
+}
+.interviewThumbnails {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.interviewThumbnail {
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 50px 25px;
+}
+.interviewImage {
+	width: 90%;
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.3);
+	box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.3);
+}
+
+.interviewName {
+	font-family: BudhayantiScript;
+	font-weight: 200;
+	font-size: 30px;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+}
+.interviewTitle {
+		font-family: LightFont, monospace;
+		font-weight: 500;
+		font-size: 25px;
+		letter-spacing: 1px;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+}
+.interviewDateWriter {
+	margin: 10px 0;
+	color: #3c3b3b;
+	text-align: center;
+}
+.interviewDate {
+	font-family: andale, monospace;
+	font-weight: 300;
+	display: inline;
+}
+.interviewWriter {
+	font-family: andale, monospace;
+	font-weight: 300;
+	display: inline;
+}
+.interviewDescription {
+	font-family: Arial;
+	text-align: center;
+	padding: 5px 10px;
+	margin: 10px 0;
+	color: #3c3b3b;
+	max-width: 85%;
+}
+.interviewLink {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	padding:0.5em 1em;
+	border: 1px solid black;
+	margin: 10px 0;
+	transition: 0.2s ease-in-out;
+}
+.interviewLink:hover, .interviewLink:focus {
+	color: white;
+	background-color: black;
+}
+/* Articles End */
+@media(max-width: 1200px) {
+	.articleDate {
+		margin-top: 50px;
+	}
+}
+@media(max-width: 555px) {
+	.articleName {
+		font-size: 30px;
+	}
+	.articleTitle {
+		font-size: 25px;
+	}
+}
+@media(max-width: 400px) {
+	.interviewName {
+		font-size: 25px;
+		line-height: 50px;
+	}
+	.interviewTitle {
+		font-size: 20px;
+	}
+	.interviewDateWriter {
+		font-size: 14px;
+	}
+}
