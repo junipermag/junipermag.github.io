@@ -49,20 +49,25 @@ filter:grayscale(100%);
 .fashionTitles1 {
   position: absolute;
   right: 0;
+  text-align: right;
 }
 .fashionTitles2 {
   position: absolute;
   bottom: 0;
 }
 
-@media(min-width: 1024px) {
-  .fashionThumbnail:hover, .fashionThumbnail:focus {
-    background-size: 150%;
-  }
-}
-
 @media(max-width: 1000px) {
   .fashionThumbnail {
     background-size: cover;
+    background-position: 35% center;
+  }
+}
+
+@media(max-width: 500px) {
+  .fashionTitle {
+    font-size: 23px;
+  }
+  .fashionSubTitle {
+    font-size: 17px;
   }
 }

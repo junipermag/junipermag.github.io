@@ -317,13 +317,7 @@ footer p {
 /* Content End */
 
 /* Media Queries */
-@media(max-width: 1350px) {
-	.logo {
-		margin-top: 30px;
-		font-size: 50px;
-	}
-}
-@media(max-width: 1325px) {
+@media(max-width: 1500px) {
 	.social {
 		position: relative;
 		margin: 0 auto;
