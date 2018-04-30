@@ -270,10 +270,6 @@ nav a:hover, nav a:focus {
 	overflow: hidden;
 	transition: 0.5s ease-in-out;
 }
-.thumbnail:hover .thumbnailDetails {
-	position: absolute;
-	right: 0;
-}
 .thumbnail:hover, .thumbnail:focus {
 	-webkit-box-shadow: 5px 10px 20px -5px rgba(0,0,0,0.6);
 	-moz-box-shadow: 5px 10px 20px -5px rgba(0,0,0,0.6);
@@ -298,7 +294,7 @@ nav a:hover, nav a:focus {
 }
 .thumbnailDetails {
 	position: absolute;
-	right: -300px;
+	right: 0;
 	bottom: 0;
 	margin: 10px 20px;
 	color: #ffffff;
