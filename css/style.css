@@ -89,6 +89,14 @@ table {
 	src: url(/fonts/Roboto/Roboto-Light.ttf);
 	font-family: Roboto_Light;
 }
+@font-face {
+	src: url(/fonts/avnext-sv/AvenirNext-Regular.otf);
+	font-family: AvenirNext-Regular;
+}
+@font-face {
+	src: url(/fonts/pixeland/Pixeland.ttf);
+	font-family: Pixeland;
+}
 
 /* Content Start */
 body, html {
@@ -311,8 +319,6 @@ footer p {
 }
 
 /*Home End*/
-
-
 
 /* Content End */
 
