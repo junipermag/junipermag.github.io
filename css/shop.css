@@ -39,3 +39,29 @@
   font-size: 17px;
 }
 /* Shop End */
+
+/* Media Queries */
+@media(max-width: 500px) {
+  .shopCover {
+    width: 90%;
+  }
+  .shopTextContent {
+    max-width: 90%;
+  }
+}
+@media(max-width: 414px) {
+  .shopHeading {
+    font-size: 30px;
+  }
+  .shopSubHeading {
+    font-size: 40px;
+  }
+}
+@media(max-width: 320px) {
+  .shopHeading {
+    font-size: 25px;
+  }
+  .shopSubHeading {
+    font-size: 30px;
+  }
+}

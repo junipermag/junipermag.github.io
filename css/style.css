@@ -379,6 +379,11 @@ footer p {
 		width: 350px;
 	}
 }
+@media(max-width: 500px) {
+	.coverImage:hover > .coverTitle {
+		padding: 30px;
+	}
+}
 @media(max-width: 420px) {
 	.coverImage {
 		height: 250px;
@@ -395,7 +400,11 @@ footer p {
 	}
 }
 @media(max-width: 330px) {
+	.coverImage:hover > .coverTitle {
+		padding: 20px;
+	}
 	.coverTitle {
 		padding: 15px;
+		font-size: 20px;
 	}
 }
