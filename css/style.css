@@ -299,9 +299,9 @@ nav a:hover, nav a:focus {
 	margin: 10px 20px;
 	color: #ffffff;
 	text-align: right;
-	font-family: OpenSans_SemiBold;
+	font-family: AvenirNext-Regular;
 	font-size: 30px;
-	font-weight: 400;
+	font-weight: bold;
 	transition: 0.5s ease-in-out;
 }
 
