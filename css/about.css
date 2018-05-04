@@ -182,3 +182,8 @@
     font-size: 24px;
   }
 }
+@media(max-width: 370px) {
+  .aboutSocial {
+    margin: 25px auto;
+  }
+}
