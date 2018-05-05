@@ -103,6 +103,26 @@
 	margin: 0 15px;
 	transition: 0.2s ease-in;
 }
+
+/* Contact Start */
+.aboutContact {
+  text-align: center;
+}
+.contactHeader {
+  font-family: LightFont;
+  font-weight: lighter;
+}
+.contactEmail {
+  font-family: AvenirNext-Regular;
+  font-size: 18px;
+}
+.contactInstagram {
+  font-family: AvenirNext-Regular;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+/* Contact End */
 /* About End */
 
 /* Media Queries */
