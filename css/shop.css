@@ -38,6 +38,15 @@
   margin: 50px 0;
   font-size: 17px;
 }
+
+.shopMagazineImages {
+
+}
+.shopMagazineImage {
+  max-width: 50%;
+  display: block;
+  margin: 5px auto;
+}
 /* Shop End */
 
 /* Media Queries */
