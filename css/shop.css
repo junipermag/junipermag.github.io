@@ -39,9 +39,6 @@
   font-size: 17px;
 }
 
-.shopMagazineImages {
-
-}
 .shopMagazineImage {
   max-width: 50%;
   display: block;
@@ -53,6 +50,9 @@
 @media(max-width: 500px) {
   .shopCover {
     width: 90%;
+  }
+  .shopMagazineImage {
+    max-width: 85%;
   }
   .shopTextContent {
     max-width: 90%;
