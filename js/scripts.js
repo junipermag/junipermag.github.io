@@ -33,7 +33,7 @@ $(document).ready( function() {
     var shopMagazineImage = [];
     var shopMagazineImageLoc = [];
 
-for (var i = 0; i < 6; i++) {
+for (var i = 0; i < 7; i++) {
   shopMagazineImage[i] = $("#shopMagazineImageFadeIn"+i);
   shopMagazineImageLoc[i] = shopMagazineImage[i].offset().top;
 }
@@ -41,7 +41,7 @@ for (var i = 0; i < 6; i++) {
     setInterval(function() {
       if(didScroll){
         didScroll = false;
-        for (var b = 0; b < 6; b++) {
+        for (var b = 0; b < 7; b++) {
           if (scrollBottom >= shopMagazineImageLoc[b]) {
             shopMagazineImage[b].animate({opacity: 1});
           }
