@@ -225,9 +225,9 @@ nav a:hover, nav a:focus {
 	text-decoration: none;
 }
 .coverImage {
-	background-image: url(../img/productCover.jpg);
+	background-image: url(../img/shopCover.jpg);
 	background-size: cover;
-	background-position: center 25%;
+	background-position: center 35%;
 	height: 532px;
 	display: flex;
 	justify-content: center;
