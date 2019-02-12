@@ -18,7 +18,7 @@
 .interviewThumbnails {
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
 flex-wrap: wrap;
 }
 
@@ -92,19 +92,6 @@ flex-wrap: wrap;
 	background-color: black;
 }
 /* Articles End */
-@media(max-width: 1200px) {
-	.articleDate {
-		margin-top: 50px;
-	}
-}
-@media(max-width: 555px) {
-	.articleName {
-		font-size: 30px;
-	}
-	.articleTitle {
-		font-size: 25px;
-	}
-}
 @media(max-width: 400px) {
 	.interviewName {
 		font-size: 25px;

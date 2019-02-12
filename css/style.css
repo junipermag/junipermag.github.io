@@ -97,6 +97,10 @@ table {
 	src: url(/fonts/pixeland/Pixeland.ttf);
 	font-family: Pixeland;
 }
+@font-face {
+	src: url(/fonts/Slabo/Slabo27px-Regular.ttf);
+	font-family: Slabo;
+}
 
 /* Content Start */
 body, html {
@@ -274,21 +278,21 @@ nav a:hover, nav a:focus {
 	-webkit-box-shadow: 5px 10px 20px -5px rgba(0,0,0,0.6);
 	-moz-box-shadow: 5px 10px 20px -5px rgba(0,0,0,0.6);
 	box-shadow: 5px 10px 20px -5px rgba(0,0,0,0.6);
-	filter: grayscale(50%);
+	filter: grayscale(75%);
 }
 
 .thumbnail1 {
-	background-image: url(../img/CHthumbnail.jpg);
+	background-image: url(/img/w-d-y-g-o-o-s-l-thumbnail.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .thumbnail2 {
-	background-image: url(../img/BTSthumbnail2.jpg);
+	background-image: url(/img/BTSthumbnail2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .thumbnail3 {
-	background-image: url(../img/abuDhabi2.jpg);
+	background-image: url(/img/CHthumbnail.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -300,7 +304,7 @@ nav a:hover, nav a:focus {
 	color: #ffffff;
 	text-align: right;
 	font-family: AvenirNext-Regular;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: bold;
 	transition: 0.5s ease-in-out;
 }
