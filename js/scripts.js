@@ -61,8 +61,8 @@ function shopImage() {
     if(didScroll){
       didScroll = false;
       for (var b = 0; b < 7; b++) {
-        if (scrollBottom >= shopMagazineImageLoc[b]) {
-          shopMagazineImage[b].animate({opacity: 1});
+        if (scrollBottom >= shopMagazineImageLoc[b] + (shopMagazineImage[b].height() / 4)) {
+          shopMagazineImage[b].addClass('shopMagazineImageShown');
         }
       }
     }

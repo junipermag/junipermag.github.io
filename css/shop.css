@@ -46,6 +46,10 @@
   display: block;
   margin: 5px auto;
   opacity: 0;
+  transition: 750ms ease-in-out;
+}
+.shopMagazineImageShown {
+  opacity: 1;
 }
 /* Shop End */
 
